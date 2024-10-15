@@ -15,7 +15,9 @@ I wrangle, pre-process data with handling missing values, one-hot encoding for c
 ## Model Development
 * Supervised Machine Learning
   I fit 2 predictive supervised machine learning models into the dataset: kNN and Artificial Neural Networks ( do cross-validation) . I fit for the full dataset (baseline model) and the dataset with vectorizing "cuisines".
+
   The results show that:
+
   *kNN model* : average RMSE 0.14 , average R2: 0.88 (baseline model) ; average RMSE 0.11 , average R2: 0.93 (model with vectorizing "cuisine")
 
   *ANN model*: RMSE 0.266 ,   R-squared 0.581 (baseline model) ;  RMSE 0.23 , R-squared 0.68 ( model with vectorizing "cuisine")
