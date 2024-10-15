@@ -16,8 +16,9 @@ I wrangle, pre-process data with handling missing values, one-hot encoding for c
 * Supervised Machine Learning
   I fit 2 predictive supervised machine learning models into the dataset: kNN and Artificial Neural Networks ( do cross-validation) . I fit for the full dataset (baseline model) and the dataset with vectorizing "cuisines".
   The results show that:
-  kNN model : average RMSE 0.14 , average R2: 0.88 (baseline model) ; average RMSE 0.11 , average R2: 0.93 (model with vectorizing "cuisine")
-  ANN model: RMSE 0.266 ,   R-squared 0.581 (baseline model) ;  RMSE 0.23 , R-squared 0.68 ( model with vectorizing "cuisine")
+  *kNN model* : average RMSE 0.14 , average R2: 0.88 (baseline model) ; average RMSE 0.11 , average R2: 0.93 (model with vectorizing "cuisine")
+
+  *ANN model*: RMSE 0.266 ,   R-squared 0.581 (baseline model) ;  RMSE 0.23 , R-squared 0.68 ( model with vectorizing "cuisine")
 
 * Unsupervised Machine Learning
   I clustered the dataset with K-Means Clustering based on : restaurant type and ave_review_ranking and k=7. The clusters categorizes restaurants into clearly different types: casual dining, quick bites, cafe,...
